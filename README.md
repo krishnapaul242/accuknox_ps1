@@ -1,46 +1,21 @@
-# Getting Started with Create React App
+# APS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple local file manager app that represents a JSON tree structure as a file system of files
+and folders using React.js and allied tooling which might include Typescript, Redux and so on.
+### Need to have -
+1. Data Handling/State Management - Users should be able to create(upload), edit (filename), delete files and folders. - Context API or Redux or any state management library of choice
+2. Routing - Each folder should have a unique route like "home/user/Downloads/App.js" based on their node position.
+3. As a User I should be able select multiple assets
+4. As a User I should have and option to view files/folders in a collapsible/expandable cascading view
+5. As a User I should have the ability to rename and download files
+6. As a User I should be able to search the file structure
+7. As a User I should be able to see more info about the files in a popup
+8. As a User, all the files should be having file icons of the file type.
 
-## Available Scripts
+### Nice to have -
+1. Unit test cases
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Notes:
+1. Use a dummy JSON that can be used to represent the file system.
+2. Not necessary to build backend APIs, just make use of the file blobs in component state.
+3. The code should be clean and of production quality.
