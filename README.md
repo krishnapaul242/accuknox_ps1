@@ -15,7 +15,10 @@ and folders using React.js and allied tooling which might include Typescript, Re
 ### Nice to have -
 1. Unit test cases
 
-### Notes:
+### Notes -
 1. Use a dummy JSON that can be used to represent the file system.
 2. Not necessary to build backend APIs, just make use of the file blobs in component state.
 3. The code should be clean and of production quality.
+
+### References -
+1. Design - [Dropbox Monochrome Redesign 2021](https://www.behance.net/gallery/111306243/Dropbox-Monochrome-Redesign-2021)

@@ -1,0 +1,49 @@
+[
+  {
+    "type": "file",
+    "name": "index.js",
+    "size": "2KB",
+    "created_at": "Wed Nov 28 2018 15:03:56 GMT+0530 (IST)",
+    "local_path": "/Users/test/json-dir-tree/",
+    "file_type": "js"
+  },
+  {
+    "name": "node_modules",
+    "type": "folder",
+    "children_count": "1",
+    "created_at": "Wed Nov 28 2018 15:03:56 GMT+0530 (IST)",
+    "children": [
+      {
+        "name": "path",
+        "type": "folder",
+        "created_at": "Wed Nov 28 2018 15:03:56 GMT+0530 (IST)",
+        "children": [
+          {
+            "type": "file",
+            "name": "path.js",
+            "size": "43KB",
+            "created_at": "Wed Nov 28 2018 15:03:56 GMT+0530 (IST)",
+            "local_path": "/Users/test/json-dir-tree/",
+            "file_type": "js"
+          },
+          {
+            "type": "file",
+            "name": "package.json",
+            "size": "113KB",
+            "created_at": "Wed Nov 28 2018 15:03:56 GMT+0530 (IST)",
+            "local_path": "/Users/test/json-dir-tree/",
+            "file_type": "json"
+          },
+          {
+            "type": "file",
+            "name": "README.md",
+            "size": "1KB",
+            "created_at": "Wed Nov 28 2018 15:03:56 GMT+0530 (IST)",
+            "local_path": "/Users/test/json-dir-tree/",
+            "file_type": "md"
+          }
+        ]
+      }
+    ]
+  }
+]
