@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import DescriptionPanel from "../components/Panels/DescriptionPanel";
 import MenuPanel from "../components/Panels/MenuPanel";
+import List from "../components/Views/List";
 import { COLORS } from "../theme/colors";
 
 const Container = styled.div`
@@ -13,18 +14,13 @@ const Container = styled.div`
   align-items: stretch;
 `;
 
-const Filler = styled.div`
-    flex: 1;
-    background-color: ${COLORS.secondaryBackground}
-`;
-
 interface HomeProps {}
 
 const Home: React.FC<HomeProps> = (props) => {
   return (
     <Container>
           <MenuPanel />
-          <Filler />
+          <List />
           <DescriptionPanel />
     </Container>
   );

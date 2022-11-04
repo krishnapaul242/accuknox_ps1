@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Icons, { IconType } from "../../assets/svg";
 import { COLORS } from "../../theme/colors";
+import { Seperator } from "../Shared/Seperator";
 
 const Container = styled.div`
   width: 300px;
@@ -33,12 +34,6 @@ const DescriptionTitle = styled.div`
     font-weight: 500;
     color: ${COLORS.secondaryFontColor};
   }
-`;
-
-const Seperator = styled.div`
-  width: 100%;
-  height: 1px;
-  background-color: ${COLORS.primaryFontColor};
 `;
 
 const DescriptionThumbnailContainer = styled.div`
